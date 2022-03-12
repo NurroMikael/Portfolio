@@ -1,0 +1,19 @@
+{
+    "name": "AccessToken",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "forceId": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "token": {
+            "type": "string",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {},
+    "acls": [],
+    "methods": {}
+}

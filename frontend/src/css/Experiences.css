@@ -1,0 +1,12 @@
+.skillbar-percent{
+    font-size: 14px;
+}
+.skillbar:hover{
+border-left:4px solid rgb(10, 186, 206);
+border-right:4px solid rgb(10, 186, 206);
+}
+
+.skillbar-title {
+    z-index: 9;
+    width: '160px';
+}

@@ -1,0 +1,45 @@
+{
+    "name": "ProductPart",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "forceId": false,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "string",
+            "required": "true"
+        },
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "productId": {
+            "type": "string"
+        },
+        "stationId": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {
+        "works": {
+            "type": "hasMany",
+            "model": "Work",
+            "foreignKey": "productPartId"
+        },
+        "stations": {
+            "type": "belongsTo",
+            "model": "Station",
+            "foreignKey": "stationId"
+        },
+        "product": {
+            "type": "belongsTo",
+            "model": "Product",
+            "foreignKey": "productId"
+        }
+    },
+    "acls": [],
+    "methods": {}
+}

@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "portfolio",
+    "username": "root",
+    "password": "juuu",
+    "connector": "mysql",
+    "connectTimeout": 100000
+  }
+}

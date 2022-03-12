@@ -1,0 +1,82 @@
+#char1{
+    font-family: "Lato";
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0 auto;
+    padding: 10 140px 0 0;
+    display: inline;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.1);
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  
+  #char1:hover {
+    color: rgb(11, 221, 245);
+  }
+  
+  
+  #fadeText{
+      animation: fadeIn 5s;
+      -webkit-animation: fadeIn 5s;
+      -moz-animation: fadeIn 5s;
+      -o-animation: fadeIn 5s;
+      -ms-animation: fadeIn 5s;
+  }
+  
+  
+   @keyframes fadeIn {
+    0% {opacity:0;color:rgb(0, 0, 0);}
+    25% {opacity:0.25;color:rgb(8, 86, 95);}
+    50% {opacity:0.50;color:rgb(10, 123, 135);}
+    75% {opacity:0.75;color:rgb(20, 178, 196);}
+    100% {opacity:1; color:rgba(245, 238, 238, 0.1);}
+    }
+    
+    @-moz-keyframes fadeIn {
+        0% {opacity:0;color:rgb(0, 0, 0);}
+        25% {opacity:0.25;color:rgb(8, 86, 95);}
+        50% {opacity:0.50;color:rgb(10, 123, 135);}
+        75% {opacity:0.75;color:rgb(20, 178, 196);}
+        100% {opacity:1; color:rgba(245, 238, 238, 0.1);}
+    }
+    
+    @-webkit-keyframes fadeIn {
+        0% {opacity:0;color:rgb(0, 0, 0);}
+        25% {opacity:0.25;color:rgb(8, 86, 95);}
+        50% {opacity:0.50;color:rgb(10, 123, 135);}
+        75% {opacity:0.75;color:rgb(20, 178, 196);}
+        100% {opacity:1; color:rgba(245, 238, 238, 0.1);}
+    }
+    
+    @-o-keyframes fadeIn {
+        0% {opacity:0;color:rgb(0, 0, 0);}
+    25% {opacity:0.25;color:rgb(8, 86, 95);}
+    50% {opacity:0.50;color:rgb(10, 123, 135);}
+    75% {opacity:0.75;color:rgb(20, 178, 196);}
+    100% {opacity:1; color:rgba(245, 238, 238, 0.1);}
+    }
+    
+    @-ms-keyframes fadeIn {
+        0% {opacity:0;color:rgb(0, 0, 0);}
+    25% {opacity:0.25;color:rgb(8, 86, 95);}
+    50% {opacity:0.50;color:rgb(10, 123, 135);}
+    75% {opacity:0.75;color:rgb(20, 178, 196);}
+    100% {opacity:1; color:rgba(245, 238, 238, 0.1);}
+    }
+  
+    #Typo{
+      color: rgb(169, 245, 253);
+      font-weight: 800;
+      font-size: 15px;
+  }
+  
+  #Typo:hover{
+      color: rgb(11, 221, 245);
+      font-weight: 1000;
+  }
+  

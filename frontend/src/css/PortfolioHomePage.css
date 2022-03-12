@@ -1,0 +1,30 @@
+#background {
+    background: linear-gradient( #000000, #09063a, #000000, #070637);
+	animation: gradient 15s ease infinite;
+}  
+
+audio::-webkit-media-controls-panel {
+    background-color: rgb(50, 111, 142);
+  }
+  
+  #draggable.dragging {
+    user-select: none;
+  }
+  
+  #dragger {
+    background: rgb(15, 4, 101);
+    text-align: center;
+    border-radius: 20px;
+    height:20px;
+    
+  }
+  #dragger:hover {
+    background: rgb(71, 48, 241);
+  }
+  #dragger::before {
+    content: "Move me";
+    color: #fff;
+    display: inline-block;
+  }
+
+ 

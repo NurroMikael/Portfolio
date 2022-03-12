@@ -1,0 +1,28 @@
+{
+    "name": "Station",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "forceId": false,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "string",
+            "required": true
+        },
+        "name": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {
+        "product": {
+            "type": "hasMany",
+            "model": "ProductPart",
+            "foreignKey": "stationId"
+        }
+    },
+    "acls": [],
+    "methods": {}
+}

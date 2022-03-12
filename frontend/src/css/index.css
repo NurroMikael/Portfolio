@@ -1,0 +1,4 @@
+#root {
+    background: linear-gradient(-45deg, #252525, #232223, #211d22, #2f0d48);
+	animation: gradient 15s ease infinite;
+}  

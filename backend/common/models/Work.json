@@ -1,0 +1,40 @@
+{
+    "name": "Work",
+    "base": "PersistedModel",
+    "idInjection": true,
+    "forceId": false,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+        "id": {
+            "type": "string",
+            "required": true
+        },
+        "name": {
+            "type": "string"
+        },
+        "start": {
+            "type": "string"
+        },
+        "end": {
+            "type": "string"
+        },
+        "duration": {
+            "type": "string"
+        },
+        "productPartId": {
+            "type": "string"
+        }
+    },
+    "validations": [],
+    "relations": {
+        "productPart": {
+            "type": "belongsTo",
+            "model": "ProductPart",
+            "foreignKey": "productPartId"
+        }
+    },
+    "acls": [],
+    "methods": {}
+}
