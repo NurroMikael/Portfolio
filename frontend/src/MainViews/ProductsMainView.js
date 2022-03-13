@@ -225,12 +225,13 @@ const ProductsMainView = (props) => {
                     }}
                     actions={[
                         (rowData) => {
-                            let result = {
-                                icon: MaterialTableIcons.tableIcons.Add,
-                                tooltip: 'Add a product part',
-                                onClick: (event, rowData) => { handleAddClick(rowData) }
+                            if (!rowData.ready) {
+                                return {
+                                    icon: MaterialTableIcons.tableIcons.Add,
+                                    tooltip: 'Add a product part',
+                                    onClick: (event, rowData) => { handleAddClick(rowData) }
+                                }
                             }
-                            return result
                         },
                         (rowData) => {
                             if (!rowData.ready) {

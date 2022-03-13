@@ -32,8 +32,12 @@ const Experiences = (props) => {
             "level": 60
         },
         {
+            "type": "Java",
+            "level": 50
+        },
+        {
             "type": "React-Native",
-            "level": 75
+            "level": 65
         },
         {
             "type": "React",
@@ -49,7 +53,7 @@ const Experiences = (props) => {
         },
         {
             "type": "Docker",
-            "level": 50
+            "level": 70
         },
         {
             "type": "MySQL",
@@ -57,7 +61,7 @@ const Experiences = (props) => {
         },
         {
             "type": "AWS",
-            "level": 40
+            "level": 60
         }
     ]
 
